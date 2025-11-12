@@ -2,7 +2,7 @@
 
 A Python-based tool for downloading videos and audio from YouTube and Facebook in multiple formats and qualities.
 
-## 🚀 Features
+## 🛠️ Features
 - Download videos or audio directly from YouTube or Facebook  
 - Supports multiple formats: `.mp4`, `.webm`, `.mp3`  
 - Choose from available resolutions (low to high quality)  
@@ -16,8 +16,16 @@ This project uses the `pytube` and `yt_dlp` libraries to fetch and download medi
 Make sure you have Python 3.8+ installed.  
 Then install the required packages:
 
+## 📁 Output
+Downloaded files will be saved automatically in the downloads/ folder inside the project directory.
+
+## 👨‍💻 Author
+Developed by Dip Mondal
+If you’d like to connect, reach me at dipmondal19564@gmail.com
 ```bash
+
 pip install pytube yt-dlp
+
 🖥️ Usage
 1. Clone this repository:
 git clone https://github.com/yourusername/YouTube_Video_Downloader.git
@@ -26,5 +34,6 @@ cd YouTube_Video_Downloader
 3. Run the program:
 python downloader.py
 4. Paste your YouTube or Facebook video link and choose:
-Video or audio download
-Quality option (low, medium, or high)
+• Video or audio download
+• Quality option (low, medium, or high)
+
